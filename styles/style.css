@@ -148,12 +148,45 @@ li a:hover {
     border-radius: 10px;
 }
 
+.container-princ{
+    margin-top: 20px;
+    max-width: 100%;
+    background-color: #3a3b44;
+    text-align: center;
+}
 
+.container-skill {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+.container-skill h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    color: white;
+}
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.cont-skill {
+    text-align: center;
+    margin: 15px;
+    width: calc(20% - 30px);
+}
 
+.cont-skill img {
+    max-width: 100%;
+    height: auto;
+}
 
+.cont-skill h4{
+    color: white;
+}
 
 
 
@@ -225,6 +258,7 @@ li a:hover {
         background-color: #000000;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         height: 100%;
+        transition: 0.5s;
     }
 
     nav.visible{
