@@ -241,6 +241,8 @@ li a:hover {
 .container-form{
     background-color: #3a3b44;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .container-form h1{
