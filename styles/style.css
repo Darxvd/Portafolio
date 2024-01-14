@@ -133,7 +133,6 @@ li a:hover {
     background-color: #3a3b44;
     text-align: center;
     margin-left: 30px;
-    border: 2px solid black;
     border-radius: 15px;
 }
 
@@ -188,18 +187,127 @@ li a:hover {
     color: white;
 }
 
+.container-proyect{
+    margin-top: 20px;
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+}
 
+.container-proye {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+.proyect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.cont-proy{
+    text-align: center;
+    margin: 15px;
+    width: calc(50% - 30px);
+}
 
+.cont-proy img{
+    margin-top: 20px;
+    max-width: 320px;
+}
 
+.cont-proy h4{
+    margin-top: 5px;
+    background-color: #000000;
+    color: white;
+    width: 320px;
+    border-radius: 5px;
+    margin-left: 25px;
+    padding: 5px;
+}
 
+.cont-proy p{
+    margin-top: 5px;
+    background-color: #3a3b44;
+    color: white;
+    width: 320px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 25px;
+    padding: 5px;
+    text-align: justify;
+}
 
+.container-form{
+    background-color: #3a3b44;
+    text-align: center;
+}
 
+.container-form h1{
+    color: white;
+}
 
+.formulario {
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #000000;
+    padding: 15px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
 
+  textarea{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
+  footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+  }
 
+  footer h5{
+    color: white;
+  }
+
+  footer h5 a{
+    color: white;
+    text-decoration: none;
+  }
 
 
 
@@ -327,6 +435,7 @@ li a:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 20px;
     }
     
     .information-1,
@@ -350,7 +459,6 @@ li a:hover {
     .information-2 {
         background-color: #3a3b44;
         text-align: center;
-        border: 2px solid black;
         border-radius: 15px;
         max-width: 325px;
         order: 1;
@@ -359,15 +467,180 @@ li a:hover {
     .information-2 h1 {
         color: white;
         padding: 0px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     
     .information-2 img {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        max-width: 310px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        max-width: 300px;
         border-radius: 10px;
     }
+
+    .container-princ{
+        margin-top: 0px;
+        max-width: 100%;
+        background-color: #3a3b44;
+        text-align: center;
+    }
+
+    .container-skill {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    
+    .container-skill h1 {
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .cont-skill {
+        text-align: center;
+        margin: 15px;
+        width: calc(50% - 30px);
+    }
+    
+    .cont-skill img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .cont-skill h4{
+        color: white;
+    }
+
+    .container-proyect{
+        margin-top: 20px;
+        max-width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+    
+    .container-proye {
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .proyect {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .cont-proy{
+        text-align: center;
+        margin: 5px;
+        width: calc(100% - 10px);
+    }
+    
+    .cont-proy img{
+        margin-top: 10px;
+        max-width: 290px;
+    }
+    
+    .cont-proy h4{
+        margin-top: 5px;
+        background-color: #000000;
+        color: white;
+        width: 290px;
+        border-radius: 5px;
+        margin-left: 0px;
+        padding: 5px;
+    }
+    .cont-proy p{
+        margin-top: 5px;
+        background-color: #3a3b44;
+        color: white;
+        width: 290px;
+        height: auto;
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        padding: 5px;
+        text-align: justify;
+    }
+    
+    .container-form{
+        background-color: #3a3b44;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .container-form h1{
+        color: white;
+        font-size: 30px;
+    }
+    
+    .formulario {
+        max-width: 320px;
+        margin: auto;
+        border: 2px solid #000000;
+        padding: 15px;
+      }
+      
+      .input-group {
+        margin-bottom: 15px;
+      }
+      
+      label {
+        display: block;
+        color: #ffffff;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #ffffff;
+      }
+    
+      textarea{
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #f4f4f4;
+      }
+      
+      button {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: #000000;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      footer{
+        background-color: #000000;
+        text-align: center;
+        padding: 10px;
+      }
+    
+      footer h5{
+        color: white;
+      }
+    
+      footer h5 a{
+        color: white;
+        text-decoration: none;
+      }
 
 }
     
